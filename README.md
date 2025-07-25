@@ -35,14 +35,18 @@
 
 Coming soon! Stay tuned for a walkthrough video and live app link.
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- **Frontend:** Next.js (React)
-- **Backend:** Node.js (Express) or Python (FastAPI)
-- **AI Service:** OpenAI GPT-4 API or Hugging Face Code LLMs
-- **Database:** MongoDB or PostgreSQL
-- **DevOps:** Docker, GitHub Actions
-- **Integration:** GitHub REST & Webhook APIs
+| Component   | Tech                                                                 |
+|-------------|----------------------------------------------------------------------|
+| Frontend    | [Next.js](https://nextjs.org/) (React)                               |
+| Backend     | [Node.js](https://nodejs.org/) (Express) or [FastAPI](https://fastapi.tiangolo.com/) |
+| AI Service  | [OpenAI GPT-4 API](https://platform.openai.com/) or Hugging Face LLMs |
+| Database    | [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/) |
+| DevOps      | Docker, GitHub Actions                                               |
+| Integration | GitHub REST & Webhook APIs                                           |
+
+---
 
 ## How It Works
 
@@ -58,4 +62,12 @@ Coming soon! Stay tuned for a walkthrough video and live app link.
    ```bash
    git clone https://github.com/stealthwhizz/Prisma.git
    cd PRisma
+2. Setup Environment Variables
+   Create a .env file:
+   ```env
+   OPENAI_API_KEY=your_openai_key
+   GITHUB_CLIENT_ID=xxx
+   GITHUB_CLIENT_SECRET=xxx
+   DATABASE_URL=your_db_connection_string
+
 
