@@ -55,3 +55,7 @@ Coming soon! Stay tuned for a walkthrough video and live app link.
 ## Quick Start
 
 1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/stealthwhizz/Prisma.git
+   cd PRisma
+
