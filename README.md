@@ -89,3 +89,51 @@ Fill in:
 2. OpenAI or Hugging Face API key
 3. Your DB connection string
 ```
+4. Register Your GitHub App
+```bash
+  1. Go to GitHub Developer Settings
+  2. Create a new GitHub App
+  3. Set webhook callback URL to:
+  4. https://your-backend-domain.com/webhooks/github
+```
+5. Run Locally
+```bash
+   # Backend
+  cd backend
+  npm start
+
+  # Frontend
+  cd ../frontend
+  npm run dev
+```
+6. Test It
+```bash
+1. Open a pull request in a connected repo
+2. Watch PRisma analyze and comment on your code 🎯
+```
+
+## Configuration
+
+1. Configure AI engine: OpenAI, Claude, or Hugging Face via .env
+2. Modify prompts in config/reviewPrompts.js to change tone/style
+3. Adjust severity thresholds, token limits, or target files
+
+## 🧪 Usage
+
+PRisma automatically reviews every new pull request
+Suggestions are posted as inline comments with detailed explanations
+Dashboard shows:
+Total PRs reviewed
+Common issues flagged
+Developer feedback ratings
+
+## 🤝 Contributing
+
+We welcome PRs, ideas, and feedback!
+Fork the repo
+Create a feature branch
+Submit a PR with your change and a clear description
+
+## 📄 License
+Licensed under the MIT License — free for personal and commercial use.
+
