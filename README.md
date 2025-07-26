@@ -18,7 +18,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **🧠 AI-Driven Static Code Analysis**  
   Automatically reviews pull requests, flags bugs or anti-patterns, and suggests improvements.
@@ -37,13 +37,13 @@
 
 ---
 
-## 🎥 Demo
+## Demo
 
 🚧 Coming soon! Stay tuned for a walkthrough video and live app link.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component   | Tech                                                                 |
 |-------------|----------------------------------------------------------------------|
@@ -56,7 +56,7 @@
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Connect PRisma** to your GitHub organization or repository.
 2. **PR events** trigger webhooks that send changed code, diffs, and context to the backend.
@@ -66,7 +66,7 @@
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -118,7 +118,7 @@ Fill in:
 2. Modify prompts in config/reviewPrompts.js to change tone/style
 3. Adjust severity thresholds, token limits, or target files
 
-## 🧪 Usage
+## Usage
 
 PRisma automatically reviews every new pull request
 Suggestions are posted as inline comments with detailed explanations
@@ -127,13 +127,13 @@ Total PRs reviewed
 Common issues flagged
 Developer feedback ratings
 
-## 🤝 Contributing
+## Contributing
 
 We welcome PRs, ideas, and feedback!
 Fork the repo
 Create a feature branch
 Submit a PR with your change and a clear description
 
-## 📄 License
+## License
 Licensed under the MIT License — free for personal and commercial use.
 
