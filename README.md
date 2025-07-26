@@ -71,5 +71,21 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PRisma.git
-cd PRisma
+    git clone https://github.com/YOUR_USERNAME/PRisma.git
+    cd PRisma
+```
+### 2. Install Dependencies
+
+```bash
+    cd backend && npm install
+    cd ../frontend && npm install
+```
+### 3. Set Up Environment Variables
+```eenv
+Copy .env.example → .env in both frontend and backend
+
+Fill in:
+1. GitHub App credentials
+2. OpenAI or Hugging Face API key
+3. Your DB connection string
+```
